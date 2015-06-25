@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         SoundCloud Remove Reposts From Stream
 // @namespace   https://github.com/superyetix/SoundCloudRemoveRepostsFromStream
-// @version      1.0
-// @match https://soundcloud.com/stream*
 // @description  removes reposts from SoundCloud stream
+// @version      1.3.2
+// @match *://soundcloud.com/stream*
+// @updateURL: https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/master/script.js
+// @downloadURL: https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/master/script.js
 // @author       superyetix
 // @grant        none
 // ==/UserScript==
