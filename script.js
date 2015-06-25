@@ -2,11 +2,9 @@
 // @name         SoundCloud Remove Reposts From Stream
 // @namespace   https://github.com/superyetix/SoundCloudRemoveRepostsFromStream
 // @version      1.0
-// @match *:/soundcloud.com/stream*
-// @match *://soundcloud.com/stream*
-// @description  An automatic upgrade manager for the 2015 Summer Steam Monster Minigame
-// @updateURL    https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/master/script.js
-// @downloadURL  https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/master/script.js
+// @match https://soundcloud.com/stream*
+// @description  removes reposts from SoundCloud stream
+// @author       superyetix
 // @grant        none
 // ==/UserScript==
 
@@ -22,17 +20,16 @@
             }
         }
         var check = document.getElementsByClassName("playbackSoundBadge__titleContextContainer")[0];
-        console.log(skip);
+        //console.log(skip);
         if (check !== undefined) {
             var curSongHolder = check.getElementsByTagName('a')[1];
             for (var i = 0; i < skip.length; i++) {
                 if (skip[i] === curSongHolder.innerHTML) {
-                    console.log('gah');
                     skipButton.click();
                 }
             }
         }
-        console.log('run');
+        //console.log('run');
         setTimeout(repeat, 300);
     }
     repeat();
