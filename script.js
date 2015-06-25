@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         SoundCloud Remove Reposts From Stream
-// @namespace    https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/
-// @version      2.0
+// @namespace   https://github.com/superyetix/SoundCloudRemoveRepostsFromStream
+// @version      1.0
+// @match *:/soundcloud.com/stream*
+// @match *://soundcloud.com/stream*
 // @description  An automatic upgrade manager for the 2015 Summer Steam Monster Minigame
 // @updateURL    https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/master/script.js
 // @downloadURL  https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/master/script.js
