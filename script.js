@@ -8,7 +8,8 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {    var skipButton = document.getElementsByClassName("skipControl playControls__icon sc-ir skipControl__next")[0];
+(function() {
+    var skipButton = document.getElementsByClassName("skipControl playControls__icon sc-ir skipControl__next")[0];
     var skip = [];
 
     function repeat() {
@@ -33,4 +34,4 @@
         setTimeout(repeat, 300);
     }
     repeat();
-})();
+})(window);
