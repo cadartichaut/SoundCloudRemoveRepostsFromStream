@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         SoundCloud Remove Reposts From Stream
+// @namespace    https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/
+// @version      2.0
+// @description  An automatic upgrade manager for the 2015 Summer Steam Monster Minigame
+// @updateURL    https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/master/script.js
+// @downloadURL  https://raw.githubusercontent.com/superyetix/SoundCloudRemoveRepostsFromStream/master/script.js
+// @grant        none
+// ==/UserScript==
+
 (function() {    var skipButton = document.getElementsByClassName("skipControl playControls__icon sc-ir skipControl__next")[0];
     var skip = [];
 
